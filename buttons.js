@@ -23,7 +23,6 @@ function showVideo(){
 }
 
 function closeCad(){
-	clearButtons()
 	document.getElementById('stlViewer').style.display = 'none'
 }
 
