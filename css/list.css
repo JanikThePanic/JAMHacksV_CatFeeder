@@ -1,0 +1,23 @@
+.itemList a{
+	border-bottom: 1px solid lightgrey;
+	width: 100%;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.itemList a span{
+	font-weight: bold;
+}
+
+.itemList p span{
+	font-weight: bold;
+}
+
+.itemList{
+	width: 600px;
+	font-size: 20px;
+	margin: auto;
+	display: none;
+	flex-direction: column;
+}

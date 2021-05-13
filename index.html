@@ -4,11 +4,13 @@
 <head>
 	<link rel="icon" href="favicon.ico" />
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="css/stl.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/list.css">
 
 	<script src="stlplugin/stl_viewer.min.js"></script>
-	<script src="stl.js"></script>
-	
+	<script src="js/stl.js"></script>
+
 	<title>Cat Feeder</title>
 </head>
 
@@ -18,8 +20,25 @@
 		<h2>Janik Abdullayev and Owen Moogk</h2>
 		<div id="buttonContainer">
 			<button class="leftButton" id="cadButton" onclick="showCad()">Cad</button>
-			<button class="rightButton" id="codeButton" onclick="showCode()">Code</button>
+			<button class="middleButton" id="codeButton" onclick="showCode()">Code</button>
+			<button class="rightButton" id='showcaseButton' onclick="showVideo()">Showcase</button>
 		</div>
+		
+		<br><br>
+		<!-- CAD LIST -->
+		<div id='cadList' class="itemList">
+			<p><span>Thing one</span> • other</p>
+		</div>
+
+		<!-- CODE LIST -->
+		<div id='codeList' class="itemList">
+			<a href=""><span>Main</span> • Main function running the logic</a>
+			<a href=""><span>Vision / Cat Detection</span> • Vision processing to detect cats</a>
+			<a href=""><span>Email Sending</span> • Python script to send email when food is low</a>
+		</div>
+
+
+		<!-- STL VIEWER -->
 		<div id="stlViewer" style="display: none;">
 			<span id="x" onclick="closeCad()">x</span>
 			<div id="stlContainer">
@@ -30,6 +49,6 @@
 		</div>
 	</div>
 </body>
-<script src="buttons.js"></script>
+<script src="js/buttons.js"></script>
 
 </html>
