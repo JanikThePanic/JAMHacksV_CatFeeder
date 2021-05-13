@@ -22,4 +22,34 @@ body {
 h2{
 	margin: auto;
 	width: fit-content;
+	padding-bottom: 20px;
+}
+
+#stlContainer{
+	height: 400px;
+}
+
+#buttonContainer{
+	width: fit-content;
+	margin: auto;
+	background-color: white;
+	padding: 3px;
+	border-radius: 10px;
+}
+
+button{
+	color: white;
+	outline: none;
+	background-color: rgb(50, 50, 50);
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	padding: 10px;
+}
+
+.leftButton{
+	border-radius: 10px 0 0 10px;
+}
+.rightButton{
+	border-radius: 0 10px 10px 0;
 }

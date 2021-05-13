@@ -1,7 +1,7 @@
 function loadSTL(){
 
     // loads the stl viewer
-    stl_viewer = new StlViewer(document.getElementById("stl_cont"), {
+    stl_viewer = new StlViewer(document.getElementById("stlContainer"), {
         auto_rotate: true,
         models: [{
             id:0, 

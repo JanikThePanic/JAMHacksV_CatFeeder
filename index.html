@@ -8,7 +8,7 @@
 
 	<script src="/stlplugin/stl_viewer.min.js"></script>
 	<script src="/stl.js"></script>
-
+	
 	<title>Cat Feeder</title>
 </head>
 
@@ -16,8 +16,12 @@
 	<div id="homepage">
 		<h1 id='pageTitle'>Cat Feeder</h1>
 		<h2>Janik Abdullayev and Owen Moogk</h2>
+		<div id="buttonContainer">
+			<button class="leftButton" id="cadButton" onclick="showCad()">Cad</button>
+			<button class="rightButton" id="codeButton" onclick="showCode()">Code</button>
+		</div>
 		<div id="stlViewer">
-			<div id="stl_cont" onmouseover="play()" onmouseout="pause()">
+			<div id="stlContainer" onmouseover="play()" onmouseout="pause()">
 				<div id="loading">
 					<p id="loading">Loading...</p>
 				</div>
@@ -25,5 +29,6 @@
 		</div>
 	</div>
 </body>
+<script src="/buttons.js"></script>
 
 </html>
