@@ -10,7 +10,7 @@ function loadSTL(file){
         auto_rotate: true,
         models: [{
             id:0, 
-            filename:file,
+            filename: file,
             rotationx: -1.5,
             rotationz: 0.5
         }]
