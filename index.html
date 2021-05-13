@@ -27,7 +27,8 @@
 		<br><br>
 		<!-- CAD LIST -->
 		<div id='cadList' class="itemList">
-			<p><span>Thing one</span> • other</p>
+			<a onclick="loadSTL('/slope.stl')"><span>Slope</span></a>
+			<a onclick="loadSTL('/tank.stl')"><span>Tank</span></a>
 		</div>
 
 		<!-- CODE LIST -->
@@ -41,11 +42,7 @@
 		<!-- STL VIEWER -->
 		<div id="stlViewer" style="display: none;">
 			<span id="x" onclick="closeCad()">x</span>
-			<div id="stlContainer">
-				<div>
-					<p id="loading">Loading...</p>
-				</div>
-			</div>
+			<div id="stlContainer"></div>
 		</div>
 	</div>
 </body>

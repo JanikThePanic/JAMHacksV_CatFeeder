@@ -5,9 +5,8 @@ showcaseButton = document.getElementById('showcaseButton')
 function showCad(){
 	clearButtons()
 	clearContent()
+	document.getElementById('cadList').style.display = 'flex'
 	cadButton.style.backgroundColor = 'rgb(153,153,25)'
-	document.getElementById('stlViewer').style.display = 'block'
-	loadSTL()
 }
 
 function showCode(){
