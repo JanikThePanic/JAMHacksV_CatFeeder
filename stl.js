@@ -1,3 +1,5 @@
+var stl_viewer;
+
 function loadSTL(){
 
     // loads the stl viewer

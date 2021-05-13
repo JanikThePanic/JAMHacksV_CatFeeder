@@ -12,7 +12,7 @@
 	<title>Cat Feeder</title>
 </head>
 
-<body onload="loadSTL()">
+<body>
 	<div id="homepage">
 		<h1 id='pageTitle'>Cat Feeder</h1>
 		<h2>Janik Abdullayev and Owen Moogk</h2>
@@ -20,9 +20,10 @@
 			<button class="leftButton" id="cadButton" onclick="showCad()">Cad</button>
 			<button class="rightButton" id="codeButton" onclick="showCode()">Code</button>
 		</div>
-		<div id="stlViewer">
-			<div id="stlContainer" onmouseover="play()" onmouseout="pause()">
-				<div id="loading">
+		<div id="stlViewer" style="display: none;">
+			<span id="x" onclick="closeCad()">x</span>
+			<div id="stlContainer">
+				<div>
 					<p id="loading">Loading...</p>
 				</div>
 			</div>
