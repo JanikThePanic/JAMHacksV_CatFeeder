@@ -17,3 +17,11 @@
 	display: none;
 	flex-direction: column;
 }
+
+#video{
+	margin: auto;
+}
+
+video{
+	width: 100%;
+}

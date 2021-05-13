@@ -19,6 +19,7 @@ function showCode(){
 function showVideo(){
 	clearButtons()
 	clearContent()
+	document.getElementById('video').style.display='block'
 	showcaseButton.style.backgroundColor = 'rgb(153,153,25)'
 }
 
@@ -29,6 +30,7 @@ function closeCad(){
 function clearContent(){
 	document.getElementById('codeList').style.display = 'none'
 	document.getElementById('cadList').style.display = 'none'
+	document.getElementById('video').style.display = 'none'
 }
 
 function clearButtons(){
