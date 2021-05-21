@@ -6,21 +6,21 @@ function showCad(){
 	clearButtons()
 	clearContent()
 	document.getElementById('cadList').style.display = 'flex'
-	cadButton.style.backgroundColor = 'rgb(153,153,25)'
+	cadButton.style.backgroundColor = 'purple'
 }
 
 function showCode(){
 	clearButtons()
 	clearContent()
 	document.getElementById('codeList').style.display = 'flex'
-	codeButton.style.backgroundColor = 'rgb(153,153,25)'
+	codeButton.style.backgroundColor = 'purple'
 }
 
 function showVideo(){
 	clearButtons()
 	clearContent()
 	document.getElementById('video').style.display='block'
-	showcaseButton.style.backgroundColor = 'rgb(153,153,25)'
+	showcaseButton.style.backgroundColor = 'purple'
 }
 
 function closeCad(){
