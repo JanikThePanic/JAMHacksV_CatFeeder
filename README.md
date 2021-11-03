@@ -6,7 +6,7 @@ Entry for [JAMHacksV](https://jamhacks-v.devpost.com/)
 Authors:
 [Janik Abdullayev](https://janik.codes)
 and 
-[Owen Moogk](https://owenmoogk.codes)
+[Owen Moogk](https://owenmoogk.tk)
 
 [Project Website](http://catfeeder.tk)  
 [Google Slide](https://docs.google.com/presentation/d/1Cm49fhgJQDS7NPR7ZH-qL5qcWBr16FDlTvkuxBdivwg/edit?usp=sharing)
