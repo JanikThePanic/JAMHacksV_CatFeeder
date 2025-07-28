@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="icon" href="favicon.ico" />
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/stl.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/list.css">
+
+	<script src="stlplugin/stl_viewer.min.js"></script>
+	<script src="stl.js"></script>
+
+	<title>Cat Feeder</title>
+</head>
+
+<body>
+	<div id="homepage">
+		<h1 id='pageTitle'>Cat Feeder</h1>
+		<h2>Janik Abdullayev and Owen Moogk</h2>
+		<div id="buttonContainer">
+			<button class="leftButton" id="cadButton" onclick="showCad()">Cad</button>
+			<button class="middleButton" id="codeButton" onclick="showCode()">Code</button>
+			<button class="rightButton" id='showcaseButton' onclick="showVideo()">Showcase</button>
+		</div>
+		
+		<br><br>
+		<!-- CAD LIST -->
+		<div id='cadList' class="itemList">
+			<a onclick="loadSTL('/stl/assembly.stl')"><span>Assembly</span> • Main CAD for the project</a>
+			<a onclick="loadSTL('/stl/arduino.stl')"><span>Arduino</span> • Arduino for onboard processing</a>
+		</div>
+
+		<!-- CODE LIST -->
+		<div id='codeList' class="itemList">
+			<a href="https://github.com/JanikThePanic/JAMHacksV_CatFeeder/blob/main/code/main.py" target="_blank"><span>Main</span> • Main function running the logic</a>
+			<a href="https://github.com/JanikThePanic/JAMHacksV_CatFeeder/blob/main/code/catDetection/v2/videoCatDetection.py" target="_blank"><span>Vision / Cat Detection</span> • Vision processing to detect cats</a>
+			<a href="https://github.com/JanikThePanic/JAMHacksV_CatFeeder/blob/main/code/emailSender.py" target="_blank"><span>Email Sending</span> • Python script to send email when food is low</a>
+			<a href="https://github.com/JanikThePanic/JAMHacksV_CatFeeder/blob/main/code/CatFeeder_ArduinoCode/src/main.cpp" target="_blank"><span>Arduino Controllers</span> • Code written for servo and limit switch</a>
+		</div>
+
+		<!-- VIDEO -->
+		<div id='video' class="itemList">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/R7FwRFxINBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+
+		<!-- STL VIEWER -->
+		<div id="stlViewer" style="display: none;">
+			<span id="x" onclick="closeCad()">x</span>
+			<div id="stlContainer"></div>
+		</div>
+	</div>
+</body>
+<script src="buttons.js"></script>
+
+</html>
